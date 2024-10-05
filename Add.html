@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="Website icon"  type="png" href="img/link-removebg-preview.png">
+    <title>Devch</title>
+</head>
+<body>
+    <div class="global">
+        <div class="left"> 
+            <div class="logo">
+              <img src="img/___-removebg-preview.png" alt="">
+            </div>
+            <div class="main_menu">
+            <div class="menu">
+              <ul>
+                  <li><a href="index.html" ><span class="material-symbols-outlined">home_app_logo</span>Home</a></li>
+                  <li><a href="Add.html" class="active"><span class="material-symbols-outlined">person_add</span>Add</a></li>
+              </ul>
+            </div>
+            <div class="mode-dark" id="mode-toggle">
+              <span class="material-symbols-outlined dark" onclick="toggleDarkMode()">dark_mode</span>
+              <span class="material-symbols-outlined light" onclick="toggleDarkMode()">light_mode</span>
+            </div>
+          </div>
+      </div>
+        <div class="right">
+            <div class="header">
+                <div class="head-item">
+                <h1>Add</h1>
+                </div>
+                <div class="head-item2">
+                <img src="img/نور.png" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <div class="main">
+                    <div class="add-form">
+                        <form action="">
+                            <div class="first-form">
+                            <div class="form-item">
+                                <label for="">First Name</label>
+                                <input type="text" placeholder="Enter First Name">
+                            </div>
+                            <div class="form-item">
+                                <label for="">Last Name</label>
+                                <input type="text" placeholder="Enter Last Name">
+                            </div>
+                           </div>
+                           <div class="last-form">
+                            <div class="form-item">
+                                <label for="">Age</label>
+                                <input type="text" placeholder="Enter Age">
+                            </div>
+                            <div class="form-item">
+                                <label for="">Email</label>
+                                <input type="email" placeholder="Enter Email">
+                            </div>
+                            <div class="form-item">
+                                <label for="">Phone</label>
+                                <input type="tel" placeholder="Enter phone">
+                            </div>
+                            <div class="form-item">
+                                <label for="">Country</label>
+                                <select name="" id="">
+                                    <option value="">Alger</option>
+                                </select>
+                            </div>
+                            <div class="form-item">
+                                <button type="submit">Add</button>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
